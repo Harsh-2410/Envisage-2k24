@@ -7,6 +7,7 @@ import "./style.css";
 export default function TeamPage() {
   return (
     <>
+      <title>Our Team - Envisage 24</title>
       <div className="all overflow-x-hidden">
         <Title title="Our Team" />
         <div>
