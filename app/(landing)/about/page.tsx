@@ -15,7 +15,7 @@ export default function AboutPage() {
         <section className="mx-auto max-w-5xl px-4 py-20 sm:pt-10">
           <div className="mx-auto mb-10 flex flex-col items-center gap-y-4 rounded-3xl bg-gray-900 p-10 text-white transition-all duration-200 ease-in-out hover:scale-95 hover:shadow-2xl hover:ring-4 hover:ring-blue-900 hover:ring-offset-8 sm:flex-row">
             <div className="inline-flex h-72 w-72 flex-shrink-0 items-center justify-center sm:h-96 sm:w-96">
-              <div style={{width: "270px"}}>
+              <div style={{width: "250px"}}>
                 <img src="https://i.ibb.co/znBVWTb/ENVISAGE-LOGO.png" alt="logo" />
               </div>
             </div>
