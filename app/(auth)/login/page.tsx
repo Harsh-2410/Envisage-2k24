@@ -20,7 +20,9 @@ export default function Home() {
         <main className="flex h-full w-screen bg-gray-100">
           <div className="flex w-full flex-col bg-white sm:m-auto sm:max-w-sm sm:rounded-xl sm:shadow-xl">
             <div className="mx-auto max-w-5xl flex-col px-4 pt-36 sm:flex sm:items-end sm:space-x-5 sm:px-6 sm:pt-12 lg:px-8">
+              <div style={{width:100}}>
               <Logo />
+              </div>
               <div>
                 <h2 className="mt-6 text-center text-2xl font-bold tracking-tight text-gray-900">
                   Welcome back,
