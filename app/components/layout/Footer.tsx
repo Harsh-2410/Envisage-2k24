@@ -9,6 +9,7 @@ export default function Footer() {
             href="/"
             className="flex items-center justify-center font-medium text-white md:justify-start"
           >
+            <Logo />
             <span className="ml-3 text-3xl font-extrabold">
               ENVISAGE&rsquo; <span className="text-blue-600">24</span>
             </span>
