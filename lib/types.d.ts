@@ -99,4 +99,5 @@ type EventProps = {
   time: string;
   category: string;
   image: string;
+  link: string;
 };

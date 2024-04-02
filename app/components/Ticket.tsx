@@ -22,7 +22,7 @@ export default function Ticket({ userData }: { userData: UserData | null }) {
                   <span className="pl-2 text-blue-600">24</span>
                 </h1>
                 <h1 className="text-base font-semibold text-gray-500">
-                  4th-9th May, 2023
+                  15th-17th April, 2024
                 </h1>
               </div>
 

@@ -15,7 +15,9 @@ export default function AboutPage() {
         <section className="mx-auto max-w-5xl px-4 py-20 sm:pt-10">
           <div className="mx-auto mb-10 flex flex-col items-center gap-y-4 rounded-3xl bg-gray-900 p-10 text-white transition-all duration-200 ease-in-out hover:scale-95 hover:shadow-2xl hover:ring-4 hover:ring-blue-900 hover:ring-offset-8 sm:flex-row">
             <div className="inline-flex h-72 w-72 flex-shrink-0 items-center justify-center sm:h-96 sm:w-96">
-              <Logo className="h-72 w-72" />
+              <div style={{width: "270px"}}>
+                <img src="https://i.ibb.co/znBVWTb/ENVISAGE-LOGO.png" alt="logo" />
+              </div>
             </div>
             <div className="mt-6 flex-grow text-center sm:mt-0 sm:text-left">
               <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
@@ -66,7 +68,7 @@ export default function AboutPage() {
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">13th APRIL</h3>
                   <time className="block mb-2 text-lg font-bold leading-none text-blue-950">SATURDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
-                    STOCKIFY &nbsp;&#40;Starts&#41;<br />HACK UR WAY  &nbsp;&#40;Starts&#41;<br />PRELIMS  &nbsp;&#40;Starts&#41;
+                    STOCKIFY <br />HACK UR WAY  <br />PRELIMS  
                   </p>
                 </li>
 
@@ -78,7 +80,7 @@ export default function AboutPage() {
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">14th APRIL</h3>
                   <time className="block mb-2 text-lg font-bold leading-none text-blue-950">SUNDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
-                    HACK UR WAY  &nbsp;&#40;Starts&#41;
+                    HACK UR WAY  
                   </p>
 
                 </li>
@@ -91,7 +93,7 @@ export default function AboutPage() {
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">15th APRIL</h3>
                   <time className="block mb-2 text-lg font-bold leading-none text-blue-950">MONDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
-                  HACK UR WAY  &nbsp;&#40;Starts&#41;
+                  HACK UR WAY 
                   </p>
 
                 </li>
@@ -103,7 +105,7 @@ export default function AboutPage() {
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">16th APRIL</h3>
                   <time className="block mb-2 text-lg font-bold leading-none text-blue-950">TUESDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
-                    INAUGURATION &nbsp;&#40;Starts&#41;<br />QUIZ BIZZ<br />TWEETER BUSINESS DEBATE &nbsp;&#40;Starts&#41;
+                    INAUGURATION <br />QUIZ BIZZ<br />TWEETER BUSINESS DEBATE 
                   </p>
 
                 </li>
@@ -121,7 +123,7 @@ export default function AboutPage() {
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">17th APRIL</h3>
                   <time className="block mb-2 text-lg font-bold leading-none text-blue-950">WEDNESDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
-                    MOCK IPL &nbsp;&#40;Finals&#41;
+                    MOCK IPL 
                   </p>
 
                 </li>
@@ -134,7 +136,7 @@ export default function AboutPage() {
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">18th APRIL</h3>
                   <time className="block mb-2 text-lg font-bold leading-none text-blue-950">THURSDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
-                    11:00 AM&nbsp;&nbsp;&nbsp;MOCK IPL &nbsp;&#40;Prelims&#41;<br />06:00 PM&nbsp;&nbsp;&nbsp;STOCKIFY &nbsp;&#40;Ends&#41;<br />07:00 PM&nbsp;&nbsp;&nbsp;PROTOTYPE GROOMING
+                    Break Day 
                   </p>
 
                 </li>
@@ -147,7 +149,7 @@ export default function AboutPage() {
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">19th APRIL</h3>
                   <time className="block mb-2 text-lg font-bold leading-none text-blue-950">FRIDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
-                    B-PLAN &nbsp;&#40;Ends&#41;<br />CLOSING CEREMONY
+                    B-PLAN <br />CLOSING CEREMONY
                   </p>
 
                 </li>

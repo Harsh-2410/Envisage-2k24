@@ -60,7 +60,7 @@ export default function GalleryPage() {
             {GuestPhotos.map((photo) => (
               <img
                 key={photo.id}
-                className="w-full rounded drop-shadow-md transition-all duration-300 ease-in-out hover:scale-95 hover:drop-shadow-xl"
+                className="w-full rounded drop-shadow-md transition-all duration-450 ease-in-out hover:scale-95 hover:drop-shadow-xl"
                 src={photo.src}
                 alt={`Guest Pic ${photo.id}`}
               />
@@ -81,7 +81,7 @@ export default function GalleryPage() {
             {EnvisagePhotos.map((photo) => (
               <img
                 key={photo.id}
-                className="w-full rounded drop-shadow-md transition-all duration-300 ease-in-out hover:scale-95 hover:drop-shadow-xl"
+                className="w-full rounded drop-shadow-md transition-all duration-450 ease-in-out hover:scale-95 hover:drop-shadow-xl"
                 src={photo.src}
                 alt={`Guest Pic ${photo.id}`}
               />

@@ -6,7 +6,8 @@
     "date": "0000-00-00",
     "time": "00:00",
     "category": "",
-    "image": "/events/mockipl.png"
+    "image": "/events/mockipl.png",
+    "link" : "https://unstop.com/p/mock-ipl-envisage24-techno-main-salt-lake-kolkata-west-bengal-946285"
   },
   {
     "id": "paneldiscussion",
@@ -15,7 +16,8 @@
     "date": "0000-00-00",
     "time": "00:00",
     "category": "",
-    "image": "/events/paneldiscussion.png"
+    "image": "/events/paneldiscussion.png",
+    "link" : "https://unstop.com/p/panel-discussion-envisage24-iic-tmsl-946375"
   },
   {
     "id": "hackurway",
@@ -24,7 +26,8 @@
     "date": "0000-00-00",
     "time": "00:00",
     "category": "",
-    "image": "/events/hackurway.png"
+    "image": "/events/hackurway.png",
+    "link" : "https://unstop.com/p/hack-ur-way-envisage24-techno-main-salt-lake-kolkata-west-bengal-946315"
   },
   {
     "id": "bplan",
@@ -33,7 +36,8 @@
     "date": "0000-00-00",
     "time": "00:00",
     "category": "",
-    "image": "/events/bplan.png"
+    "image": "/events/bplan.png",
+    "link" : "https://unstop.com/p/b-plan-envisage24-techno-main-salt-lake-kolkata-west-bengal-946281"
   },
   {
     "id": "promoteit",
@@ -42,7 +46,8 @@
     "date": "0000-00-00",
     "time": "00:00",
     "category": "",
-    "image": "/events/promoteit.png"
+    "image": "/events/promoteit.png",
+    "link" : "https://unstop.com/p/promote-it-envisage24-techno-main-salt-lake-kolkata-west-bengal-946402"
   },
   {
     "id": "casestudy",
@@ -51,7 +56,8 @@
     "date": "0000-00-00",
     "time": "00:00",
     "category": "",
-    "image": "/events/casestudy.png"
+    "image": "/events/casestudy.png",
+    "link" : "https://unstop.com/competitions/case-study-challenge-envisage24-techno-main-salt-lake-kolkata-west-bengal-945603"
   },
   {
     "id": "quizbizz",
@@ -60,7 +66,8 @@
     "date": "0000-00-00",
     "time": "00:00",
     "category": "",
-    "image": "/events/quizbizz.png"
+    "image": "/events/quizbizz.png",
+    "link" : "https://unstop.com/p/quiz-bizz-envisage24-techno-main-salt-lake-kolkata-west-bengal-945619"
   },
   {
     "id": "stockify",
@@ -69,7 +76,8 @@
     "date": "0000-00-00",
     "time": "00:00",
     "category": "",
-    "image": "/events/stockify.png"
+    "image": "/events/stockify.png",
+    "link" : "https://unstop.com/p/stockify-envisage24-techno-main-salt-lake-kolkata-west-bengal-946336"
   },
   {
     "id": "tweetersbusinessdebate",
@@ -78,6 +86,7 @@
     "date": "0000-00-00",
     "time": "00:00",
     "category": "",
-    "image": "/events/tweeterbusinessdebate.png"
+    "image": "/events/tweeterbusinessdebate.png",
+    "link" : "https://unstop.com/p/tweeters-debate-envisage24-techno-main-salt-lake-kolkata-west-bengal-946350"
   }
 ]
