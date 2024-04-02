@@ -22,12 +22,13 @@ export default function NavBar() {
           className="mx-auto flex max-w-7xl items-center justify-between p-4"
           aria-label="Global"
         >
-          <div className="flex lg:flex-1">
+          <div className="flex lg:flex-initial">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Envisage 24</span>
-              <Logo  />
+              <Logo />
             </a>
           </div>
+
           <div className="flex lg:hidden">
             <button
               type="button"
@@ -38,7 +39,7 @@ export default function NavBar() {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden lg:flex lg:gap-x-12">
+          <div className="hidden lg:flex lg:gap-x-12" style={{marginRight:300}}>
             {navigation.map((item) => (
               <a
                 key={item.name}
@@ -49,7 +50,7 @@ export default function NavBar() {
               </a>
             ))}
           </div>
-          <div className="hidden gap-x-4 lg:flex lg:flex-1 lg:justify-end">
+          {/* <div className="hidden gap-x-4 lg:flex lg:flex-1 lg:justify-end">
             <a
               href="/login"
               className="rounded-md border px-4 py-2 font-bold text-black transition-all duration-150 ease-in-out hover:bg-blue-50"
@@ -62,7 +63,7 @@ export default function NavBar() {
             >
               Sign Up
             </a>
-          </div>
+          </div> */}
         </nav>
         <Dialog
           as="div"
@@ -99,14 +100,14 @@ export default function NavBar() {
                     </a>
                   ))}
                 </div>
-                <div className="py-6">
+                {/* <div className="py-6">
                   <a
                     href="/login"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Log in
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </Dialog.Panel>
