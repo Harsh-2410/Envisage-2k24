@@ -118,9 +118,9 @@ export default function ContactPage() {
                     </span>
                     <a
                       className="text -lg text-white no-underline"
-                      href="tel:+9185150 05676"
+                      href="tel:+917980149344"
                     >
-                      85150 05676
+                      7980149344
                     </a>
                   </div>
                   <ul className="mt-4 flex list-none gap-2 pb-2">
