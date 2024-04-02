@@ -38,7 +38,7 @@ export default function DashboardPage() {
 
   return (
     <>
-      <title>Dashboard - Envisage 23</title>
+      <title>Dashboard - Envisage 24</title>
       <div>
         <h1 className="pb-4 text-center text-2xl font-bold">Welcome {userData?.name},</h1>
         <div className="flex flex-col justify-center gap-y-4">

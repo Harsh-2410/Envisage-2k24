@@ -9,7 +9,7 @@ import Wait from "./images/waitfor.png"
 export default function AboutPage() {
   return (
     <>
-      <title>About - Envisage 23</title>
+      <title>About - Envisage 24</title>
       <div className="all overflow-x-hidden">
         <Title title="About" />
         <section className="mx-auto max-w-5xl px-4 py-20 sm:pt-10">

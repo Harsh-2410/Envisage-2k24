@@ -13,7 +13,7 @@ import "./../team/style.css";
 export default function GalleryPage() {
   return (
     <>
-      <title>Gallery - Envisage 23</title>
+      <title>Gallery - Envisage 24</title>
       <div className="all">
         <div className="mx-auto max-w-6xl px-4 py-20">
           <Swiper

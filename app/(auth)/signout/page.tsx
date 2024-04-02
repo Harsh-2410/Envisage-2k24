@@ -20,7 +20,7 @@ export default function Home() {
   if (user)
     return (
       <>
-        <title>Sign Out - Envisage 23</title>
+        <title>Sign Out - Envisage 24</title>
         <main className="flex h-full w-screen bg-gray-100">
           <div className="flex w-full flex-col bg-white sm:m-auto sm:max-w-sm sm:rounded-xl sm:shadow-xl">
             <div className="mx-auto max-w-5xl flex-col px-4 sm:flex sm:items-end sm:space-x-5 sm:px-6 lg:px-8">

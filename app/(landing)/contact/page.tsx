@@ -11,7 +11,7 @@ import "./../team/style.css";
 export default function ContactPage() {
   return (
     <>
-      <title>Contact Us - Envisage 23</title>
+      <title>Contact Us - Envisage 24</title>
       <div className="all overflow-x-hidden">
         <Title title="Let's get in touch" />
         <div className="relative mx-auto w-full max-w-7xl px-4 pb-20 pt-8 sm:px-20">
