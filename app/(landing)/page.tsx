@@ -169,7 +169,7 @@ export default function Home() {
                 <div className="mt-14 flex flex-col justify-center sm:flex-row">
                   <button
                     className="block rounded-lg bg-blue-600 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
-                    onClick={() => router.push("/signup")}
+                    onClick={() => router.push("https://forms.gle/1V1To7RoLXdNCQ5y6")}
                   >
                     Register Now
                   </button>
