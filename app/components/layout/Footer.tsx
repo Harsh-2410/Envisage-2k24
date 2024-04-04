@@ -2,7 +2,7 @@ import Logo from "../Logo";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-400">
+    <footer className="bg-gray-950 text-gray-400">
       <div className="container mx-auto flex flex-col flex-wrap px-5 py-24 md:flex-row md:flex-nowrap md:items-center lg:items-start">
         <div className="mx-auto flex-shrink-0 text-center sm:w-96 md:mx-0 md:text-left">
           <a
@@ -11,7 +11,7 @@ export default function Footer() {
           >
             <Logo />
             <span className="ml-3 text-3xl font-extrabold">
-              ENVISAGE&rsquo; <span className="text-blue-600">24</span>
+              ENVISAGE&rsquo; <span className="text-amber-500">24</span>
             </span>
           </a>
           <p className="mt-2 text-xs text-gray-500 sm:text-base">

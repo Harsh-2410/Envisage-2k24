@@ -7,15 +7,15 @@ import events from "@/data/events.json";
 import { User } from "firebase/auth";
 import HomeLayout from "../(landing)/layout";
 import UserLayout from "../(user)/layout";
-
 export default function AboutPage() {
   const { user } = useAuthContext() as { user: User | null };
 
   if (user) {
     return (
       <UserLayout>
-        <title>Events - Envisage 24</title>
         <div>
+        <title>Events - Envisage 24</title>
+        <div className="all overflow-x-hidden">
           <div className="text-gray-600">
             <div className="container mx-auto px-4 py-24 pt-0">
               <div className="-m-4 mx-auto flex flex-wrap">
@@ -25,6 +25,7 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
+        </div>
         </div>
       </UserLayout>
     );

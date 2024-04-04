@@ -17,26 +17,26 @@ export default function ContactPage() {
         <div className="relative mx-auto w-full max-w-7xl px-4 pb-20 pt-8 sm:px-20">
           <div className="grid grid-cols-1 gap-y-6 sm:grid-cols-3 sm:gap-x-8">
             <div className="col-span-2 mt-3 rounded-2xl bg-white p-6 shadow-lg sm:p-10">
-              <h3 className="mb-4 text-2xl font-medium text-blue-900">Send a Message</h3>
+              <h3 className="mb-4 text-2xl font-medium text-amber-500">Send a Message</h3>
               <form action="https://formsubmit.co/subha9.5roy350@gmail.com" method="POST">
                 <div className="flex flex-col gap-x-5 sm:flex-row">
                   <div className="mb-2.5 flex flex-col sm:w-6/12">
-                    <span className="mb-1.5 mt-2.5 font-medium text-cyan-500">
+                    <span className="mb-1.5 mt-2.5 font-medium text-amber-200">
                       First Name
                     </span>
                     <input
-                      className="[border:1px solid #333] rounded-md p-2.5 text-lg [outline:none]"
+                      className="[border:1px solid #333] rounded-md p-2.5 text-lg outline:none focus:border-transparent focus:ring-amber-500"
                       type="text"
                       name="fname"
                       placeholder="Steve"
                     />
                   </div>
                   <div className="mb-2.5 flex flex-col sm:w-6/12">
-                    <span className="mb-1.5 mt-2.5 font-medium text-cyan-500">
+                    <span className="mb-1.5 mt-2.5 font-medium text-amber-200">
                       Last Name
                     </span>
                     <input
-                      className="[border:1px solid #333] rounded-md p-2.5 text-lg [outline:none]"
+                      className="[border:1px solid #333] rounded-md p-2.5 text-lg outline:none focus:border-transparent focus:ring-amber-500"
                       type="text"
                       name="lname"
                       placeholder="Jobs"
@@ -46,20 +46,20 @@ export default function ContactPage() {
 
                 <div className="flex flex-col gap-x-5 sm:flex-row">
                   <div className="mb-2.5 flex flex-col sm:w-6/12">
-                    <span className="mb-1.5 mt-2.5 font-medium text-cyan-500">Email</span>
+                    <span className="mb-1.5 mt-2.5 font-medium text-amber-200">Email</span>
                     <input
-                      className="[border:1px solid #333] rounded-md p-2.5 text-lg [outline:none]"
+                      className="[border:1px solid #333] rounded-md p-2.5 text-lg outline:none focus:border-transparent focus:ring-amber-500"
                       type="text"
                       name="email"
                       placeholder="stevejobs@email.com"
                     />
                   </div>
                   <div className="mb-2.5 flex flex-col sm:w-6/12">
-                    <span className="mb-1.5 mt-2.5 font-medium text-cyan-500">
+                    <span className="mb-1.5 mt-2.5 font-medium text-amber-200 ">
                       Mobile
                     </span>
                     <input
-                      className="[border:1px solid #333] rounded-md p-2.5 text-lg [outline:none]"
+                      className="[border:1px solid #333] rounded-md p-2.5 text-lg outline:none focus:border-transparent focus:ring-amber-500"
                       type="text"
                       name="phno"
                       placeholder="+91 989 989 9898"
@@ -68,9 +68,9 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex w-full flex-col">
-                  <span className="mb-1.5 mt-2.5 font-medium text-cyan-500">Message</span>
+                  <span className="mb-1.5 mt-2.5 font-medium text-amber-200">Message</span>
                   <textarea
-                    className="w-full[border:1px solid #333] mb-2 resize-none rounded-md p-2 text-lg [outline:none] [min-height:220px]"
+                    className="w-full[border:1px solid #333] mb-2 resize-none rounded-md p-2 text-lg outline:none focus:border-transparent focus:ring-amber-500 [min-height:220px]"
                     placeholder="Write your message here..."
                     name="msg"
                   />
@@ -78,7 +78,7 @@ export default function ContactPage() {
 
                 <div className="w-full">
                   <button
-                    className="mt-5 flex w-full cursor-pointer justify-center rounded-lg border-none bg-blue-900 py-3 text-center text-xl font-semibold text-white hover:bg-blue-600"
+                    className="mt-5 flex w-full cursor-pointer justify-center rounded-lg border-none bg-amber-400 py-3 text-center text-xl font-semibold text-white hover:bg-amber-500"
                     type="submit"
                   >
                     Send Message
@@ -88,11 +88,11 @@ export default function ContactPage() {
             </div>
 
             <div className="col-span-1 mt-3 flex w-full flex-col gap-y-8">
-              <div className="rounded-2xl bg-blue-950 px-8 pb-4 pt-8">
+              <div className="rounded-2xl bg-amber-400 px-8 pb-4 pt-8">
                 <h3 className="pb-4 text-2xl text-white">Contact Info</h3>
                 <div className="flex flex-col gap-y-2.5 pb-0">
                   <div className="flex items-center">
-                    <span className="mr-4 flex h-10 items-center justify-center rounded-full bg-cyan-500 text-2xl text-white [min-width:40px]">
+                    <span className="mr-4 flex h-10 items-center justify-center rounded-full bg-amber-200 text-2xl text-white [min-width:40px]">
                       <MapPinIcon className="h-6 w-6" />
                     </span>
                     <p className="text-lg text-white">
@@ -102,7 +102,7 @@ export default function ContactPage() {
                     </p>
                   </div>
                   <div className="flex items-center">
-                    <span className="mr-4 flex h-10 items-center justify-center rounded-full bg-cyan-500 text-2xl text-white [min-width:40px]">
+                    <span className="mr-4 flex h-10 items-center justify-center rounded-full bg-amber-200 text-2xl text-white [min-width:40px]">
                       <EnvelopeIcon className="h-5 w-5" />
                     </span>
                     <a
@@ -113,7 +113,7 @@ export default function ContactPage() {
                     </a>
                   </div>
                   <div className="flex items-center">
-                    <span className="mr-4 flex h-10 items-center justify-center rounded-full bg-cyan-500 text-2xl text-white [min-width:40px]">
+                    <span className="mr-4 flex h-10 items-center justify-center rounded-full bg-amber-200 text-2xl text-white [min-width:40px]">
                       <PhoneIcon className="h-5 w-5" />
                     </span>
                     <a

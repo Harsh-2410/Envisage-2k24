@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <title>Home - Envisage 24</title>
       <main className="">
-        <div className="max-h-auto h-auto bg-gradient-to-bl from-slate-800 to-black py-28 pt-10 sm:pb-12">
+        <div className="max-h-auto h-auto bg-gradient-to-bl from-red-900 to-black py-28 pt-10 sm:pb-12">
           <Notify />
           <div className="mx-auto max-w-6xl rounded-2xl p-8 text-white sm:rounded-3xl sm:px-28 sm:py-2 sm:pt-8 sm:pb-20">
             <div className="mx-auto max-w-4xl">
@@ -25,23 +25,23 @@ export default function Home() {
               </h1>
               <h1 className="pb-12 text-center text-5xl font-black uppercase sm:text-8xl">
                 Envisage&rsquo;
-                <span className="pl-4 text-blue-600">24</span>
+                <span className="pl-4 text-amber-500">24</span>
               </h1>
               <h1 className="text-center text-3xl font-semibold tracking-tight sm:text-5xl">
                 The Official
                 <br className="visible sm:hidden" />
-                <span className="px-2 text-blue-600">E-Summit</span>of Techno Main Salt
+                <span className="px-2 text-amber-500">E-Summit</span>of Techno Main Salt
                 Lake.
               </h1>
               <div className="mt-14 flex flex-col justify-center gap-y-8 sm:flex-row sm:gap-x-6">
                 <button
-                  className="block rounded-lg bg-blue-600 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
+                  className="block rounded-lg bg-amber-500 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
                   onClick={() => router.push("/signup")}
                 >
                   Register Now
                 </button>
                 <button
-                  className="block rounded-lg border-2 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 transition-all duration-150 ease-in-out hover:border-blue-600 hover:bg-blue-600 active:scale-95 sm:px-12 sm:text-xl"
+                  className="block rounded-lg border-2 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 transition-all duration-150 ease-in-out hover:border-amber-500 hover:bg-amber-500 active:scale-95 sm:px-12 sm:text-xl"
                   onClick={() => router.push("/about")}
                 >
                   Learn More
@@ -52,7 +52,7 @@ export default function Home() {
         </div>
         <section className="py-28">
           <p className="marquee marquee1">
-            <span className="text-9xl font-black normal-case tracking-tight text-blue-600">
+            <span className="text-9xl font-black normal-case tracking-tight text-amber-500">
               Welcome to Envisage&rsquo; 2K24 Welcome to Envisage&rsquo; 2K24 Welcome to
               Envisage&rsquo; 2K24 Welcome to Envisage&rsquo; 2K24 Welcome to
               Envisage&rsquo; 2K24 Welcome to Envisage&rsquo; 2K24 Welcome to
@@ -61,7 +61,7 @@ export default function Home() {
             </span>
           </p>
           <p className="marquee marquee2">
-            <span className="font-decoration1 text-9xl normal-case tracking-tight">
+            <span className="font-decoration1 text-9xl normal-case tracking-tight ">
               Welcome to Envisage&rsquo; 2K24 Welcome to Envisage&rsquo; 2K24 Welcome to
               Envisage&rsquo; 2K24 Welcome to Envisage&rsquo; 2K24 Welcome to
               Envisage&rsquo; 2K24 Welcome to Envisage&rsquo; 2K24 Welcome to
@@ -70,7 +70,7 @@ export default function Home() {
             </span>
           </p>
           <p className="marquee marquee3">
-            <span className="text-9xl font-black normal-case tracking-tight text-blue-600">
+            <span className="text-9xl font-black normal-case tracking-tight text-amber-500">
               Welcome to Envisage&rsquo; 2K24 Welcome to Envisage&rsquo; 2K24 Welcome to
               Envisage&rsquo; 2K24 Welcome to Envisage&rsquo; 2K24 Welcome to
               Envisage&rsquo; 2K24 Welcome to Envisage&rsquo; 2K24 Welcome to
@@ -90,8 +90,8 @@ export default function Home() {
             </div>
             <div className="-m-4 mx-auto flex max-w-6xl cursor-pointer flex-wrap">
               <div className="p-4 md:w-1/2">
-                <div className="rounded-lg border border-gray-200 p-6 shadow-md transition-all duration-200 ease-in-out hover:scale-105 hover:border-2 hover:border-blue-600 hover:shadow-xl">
-                  <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-blue-500">
+                <div className="rounded-lg border border-gray-200 p-6 shadow-md transition-all duration-200 ease-in-out hover:scale-105 hover:border-2 hover:border-amber-500 hover:shadow-xl">
+                  <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-full bg-amber-200 text-amber-500">
                     <UserPlusIcon className="h-6 w-6" />
                   </div>
                   <h2 className="mb-2 text-2xl font-bold text-gray-900">
@@ -105,8 +105,8 @@ export default function Home() {
               </div>
 
               <div className="p-4 md:w-1/2">
-                <div className="rounded-lg border border-gray-200 p-6 shadow-md transition-all duration-200 ease-in-out hover:scale-105 hover:border-2 hover:border-blue-600 hover:shadow-xl">
-                  <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-blue-500">
+                <div className="rounded-lg border border-gray-200 p-6 shadow-md transition-all duration-200 ease-in-out hover:scale-105 hover:border-2 hover:border-amber-500 hover:shadow-xl">
+                  <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-full bg-amber-200 text-amber-500">
                     <UserGroupIcon className="h-6 w-6" />
                   </div>
                   <h2 className="mb-2 text-2xl font-bold text-gray-900">Networking</h2>
@@ -117,8 +117,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-4 md:w-1/2">
-                <div className="rounded-lg border border-gray-200 p-6 shadow-md transition-all duration-200 ease-in-out hover:scale-105 hover:border-2 hover:border-blue-600 hover:shadow-xl">
-                  <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-blue-500">
+                <div className="rounded-lg border border-gray-200 p-6 shadow-md transition-all duration-200 ease-in-out hover:scale-105 hover:border-2 hover:border-amber-500 hover:shadow-xl">
+                  <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-full bg-amber-200 text-amber-500">
                     <TrophyIcon className="h-6 w-6" />
                   </div>
                   <h2 className="mb-2 text-2xl font-bold text-gray-900">Prizes</h2>
@@ -128,8 +128,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-4 md:w-1/2">
-                <div className="rounded-lg border border-gray-200 p-6 shadow-md transition-all duration-200 ease-in-out hover:scale-105 hover:border-2 hover:border-blue-600 hover:shadow-xl">
-                  <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-blue-500">
+                <div className="rounded-lg border border-gray-200 p-6 shadow-md transition-all duration-200 ease-in-out hover:scale-105 hover:border-2 hover:border-amber-500 hover:shadow-xl">
+                  <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-full bg-amber-200 text-amber-500">
                     <ChatBubbleLeftRightIcon className="h-6 w-6" />
                   </div>
                   <h2 className="mb-2 text-2xl font-bold text-gray-900">Live QnA</h2>
@@ -141,7 +141,7 @@ export default function Home() {
             </div>
             <div className="mx-8 mt-14 flex flex-col justify-center sm:flex-row">
               <button
-                className="block rounded-lg bg-blue-600 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
+                className="block rounded-lg bg-amber-500 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
                 onClick={() => router.push("/signup")}
               >
                 Register Now
@@ -151,7 +151,7 @@ export default function Home() {
         </section>
         <section className="pb-28">
           <div
-            className="mx-6 h-auto rounded-3xl bg-gradient-to-bl from-slate-800 to-black py-14 sm:mx-20"
+            className="mx-6 h-auto rounded-3xl bg-gradient-to-bl from-red-900 to-black py-14 sm:mx-20"
             style={{
               backgroundImage:
                 "url('https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5')",
@@ -168,7 +168,7 @@ export default function Home() {
                 </h1>
                 <div className="mt-14 flex flex-col justify-center sm:flex-row">
                   <button
-                    className="block rounded-lg bg-blue-600 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
+                    className="block rounded-lg bg-amber-500 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
                     onClick={() => router.push("/signup")}
                   >
                     Register Now

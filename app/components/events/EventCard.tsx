@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function EventCard({ event }: { event: EventProps }) {
   return (
     <div className="p-4 md:w-1/4">
-      <div className="h-full overflow-hidden rounded-2xl border-2 border-gray-200 border-opacity-60 shadow-lg transition-all duration-300 ease-in-out hover:scale-95 hover:border-blue-600">
+      <div className="h-full overflow-hidden rounded-2xl border-2 border-gray-200 border-opacity-60 shadow-lg transition-all duration-300 ease-in-out hover:scale-95 hover:border-amber-500">
         <Image
           className="aspect-square w-full object-cover object-center"
           src={event.image}
@@ -23,7 +23,7 @@ export default function EventCard({ event }: { event: EventProps }) {
           <div className="flex flex-wrap items-center ">
             <a
               href={event.link}
-              className="inline-flex items-center text-indigo-500 md:mb-2 lg:mb-0"
+              className="inline-flex items-center text-amber-500 md:mb-2 lg:mb-0"
               target="_blank"
             >
               Register Now

@@ -13,7 +13,7 @@ export default function AboutPage() {
       <div className="all overflow-x-hidden">
         <Title title="About" />
         <section className="mx-auto max-w-5xl px-4 py-20 sm:pt-10">
-          <div className="mx-auto mb-10 flex flex-col items-center gap-y-4 rounded-3xl bg-gray-900 p-10 text-white transition-all duration-200 ease-in-out hover:scale-95 hover:shadow-2xl hover:ring-4 hover:ring-blue-900 hover:ring-offset-8 sm:flex-row">
+          <div className="mx-auto mb-10 flex flex-col items-center gap-y-4 rounded-3xl bg-amber-500 p-10 text-white transition-all duration-200 ease-in-out hover:scale-95 hover:shadow-2xl hover:ring-4 hover:ring-amber-500 hover:ring-offset-8 sm:flex-row">
             <div className="inline-flex h-72 w-72 flex-shrink-0 items-center justify-center sm:h-96 sm:w-96">
               <div style={{width: "250px"}}>
                 <img src="https://i.ibb.co/znBVWTb/ENVISAGE-LOGO.png" alt="logo" />
@@ -23,7 +23,7 @@ export default function AboutPage() {
               <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
                 What is Envisage?
               </h2>
-              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-400 sm:text-left sm:text-xl">
+              <p className="mx-auto mt-6 text-lg leading-8 text-white sm:text-left sm:text-xl">
                 Envisage is the official E-Summit of Techno Main Salt Lake. It is born out
                 of the dreams and aspirations of the youth who have the zest and the zeal
                 to take their future into their own hands. Supporting the growing startup
@@ -68,11 +68,11 @@ export default function AboutPage() {
 
               <ol className="relative border-l border-gray-200 dark:border-gray-700">
                 <li className="mb-10 ml-6">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                  <span className="absolute flex items-center justify-center w-6 h-6 bg-amber-100 rounded-full -left-3 ring-8 ring-white dark:ring-amber-500 dark:bg-amber-900">
+                    <svg aria-hidden="true" className="w-3 h-3 text-amber-800 dark:text-amber-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                   </span>
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">13th APRIL</h3>
-                  <time className="block mb-2 text-lg font-bold leading-none text-blue-950">SATURDAY</time>
+                  <time className="block mb-2 text-lg font-bold leading-none text-amber-950">SATURDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
                     STOCKIFY <br />HACK UR WAY  <br />PRELIMS  
                   </p>
@@ -80,11 +80,11 @@ export default function AboutPage() {
 
 
                 <li className="mb-10 ml-6">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                  <span className="absolute flex items-center justify-center w-6 h-6 bg-amber-100 rounded-full -left-3 ring-8 ring-white dark:ring-amber-500 dark:bg-amber-900">
+                    <svg aria-hidden="true" className="w-3 h-3 text-amber-800 dark:text-amber-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                   </span>
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">14th APRIL</h3>
-                  <time className="block mb-2 text-lg font-bold leading-none text-blue-950">SUNDAY</time>
+                  <time className="block mb-2 text-lg font-bold leading-none text-amber-950">SUNDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
                     HACK UR WAY  
                   </p>
@@ -93,11 +93,11 @@ export default function AboutPage() {
 
 
                 <li className="mb-10 ml-6">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                  <span className="absolute flex items-center justify-center w-6 h-6 bg-amber-100 rounded-full -left-3 ring-8 ring-white dark:ring-amber-500 dark:bg-amber-900">
+                    <svg aria-hidden="true" className="w-3 h-3 text-amber-800 dark:text-amber-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                   </span>
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">15th APRIL</h3>
-                  <time className="block mb-2 text-lg font-bold leading-none text-blue-950">MONDAY</time>
+                  <time className="block mb-2 text-lg font-bold leading-none text-amber-950">MONDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
                   HACK UR WAY 
                   </p>
@@ -105,11 +105,11 @@ export default function AboutPage() {
                 </li>
 
                 <li className="mb-10 ml-6">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                  <span className="absolute flex items-center justify-center w-6 h-6 bg-amber-100 rounded-full -left-3 ring-8 ring-white dark:ring-amber-500 dark:bg-amber-900">
+                    <svg aria-hidden="true" className="w-3 h-3 text-amber-800 dark:text-amber-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                   </span>
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">16th APRIL</h3>
-                  <time className="block mb-2 text-lg font-bold leading-none text-blue-950">TUESDAY</time>
+                  <time className="block mb-2 text-lg font-bold leading-none text-amber-950">TUESDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
                     INAUGURATION <br />QUIZ BIZZ<br />TWEETER BUSINESS DEBATE 
                   </p>
@@ -123,11 +123,11 @@ export default function AboutPage() {
 
               <ol className="relative border-l border-gray-200 dark:border-gray-700">
                 <li className="mb-10 ml-6">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                  <span className="absolute flex items-center justify-center w-6 h-6 bg-amber-100 rounded-full -left-3 ring-8 ring-white dark:ring-amber-500 dark:bg-amber-900">
+                    <svg aria-hidden="true" className="w-3 h-3 text-amber-800 dark:text-amber-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                   </span>
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">17th APRIL</h3>
-                  <time className="block mb-2 text-lg font-bold leading-none text-blue-950">WEDNESDAY</time>
+                  <time className="block mb-2 text-lg font-bold leading-none text-amber-950">WEDNESDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
                     MOCK IPL
                   </p>
@@ -136,11 +136,11 @@ export default function AboutPage() {
 
 
                 <li className="mb-10 ml-6">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                  <span className="absolute flex items-center justify-center w-6 h-6 bg-amber-100 rounded-full -left-3 ring-8 ring-white dark:ring-amber-500 dark:bg-amber-900">
+                    <svg aria-hidden="true" className="w-3 h-3 text-amber-800 dark:text-amber-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                   </span>
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">18th APRIL</h3>
-                  <time className="block mb-2 text-lg font-bold leading-none text-blue-950">THURSDAY</time>
+                  <time className="block mb-2 text-lg font-bold leading-none text-amber-950">THURSDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
                     Break
                   </p>
@@ -149,11 +149,11 @@ export default function AboutPage() {
 
 
                 <li className="mb-10 ml-6">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                  <span className="absolute flex items-center justify-center w-6 h-6 bg-amber-100 rounded-full -left-3 ring-8 ring-white dark:ring-amber-500 dark:bg-amber-900">
+                    <svg aria-hidden="true" className="w-3 h-3 text-amber-800 dark:text-amber-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                   </span>
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">19th APRIL</h3>
-                  <time className="block mb-2 text-lg font-bold leading-none text-blue-950">FRIDAY</time>
+                  <time className="block mb-2 text-lg font-bold leading-none text-amber-950">FRIDAY</time>
                   <p className="mb-4 text-base font-normal text-white">
                     B-PLAN <br />CLOSING CEREMONY
                   </p>
@@ -161,11 +161,11 @@ export default function AboutPage() {
                 </li>
 
                 <li className="mb-10 ml-6">
-                  <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
-                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                  <span className="absolute flex items-center justify-center w-6 h-6 bg-amber-100 rounded-full -left-3 ring-8 ring-white dark:ring-amber-500 dark:bg-amber-900">
+                    <svg aria-hidden="true" className="w-3 h-3 text-amber-800 dark:text-amber-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
                   </span>
                   <h3 className="flex items-center mb-1 text-2xl font-bold text-white">ENDS HERE !</h3>
-                  <time className="block mb-2 text-lg font-bold leading-none text-blue-950">Have Fun </time>
+                  <time className="block mb-2 text-lg font-bold leading-none text-amber-950">Have Fun </time>
                   <p className="mb-4 text-base font-normal text-white">
                     ALL THE BEST TO THE PARTICIPANTS. Let&#39;s<br/>
                     ENRAGE<br/>ENGAGE<br/>ENTHRAL
@@ -178,7 +178,7 @@ export default function AboutPage() {
 
 
           </div>
-          <div className="mt-14 mx-auto mb-10 flex justify-center items-center gap-y-4 rounded-3xl bg-gray-900 p-10 text-white transition-all duration-200 ease-in-out hover:scale-95 hover:shadow-2xl hover:ring-4 hover:ring-blue-900 hover:ring-offset-8 sm:flex-row">
+          <div className="mt-14 mx-auto mb-10 flex justify-center items-center gap-y-4 rounded-3xl bg-amber-600 p-10 text-white transition-all duration-200 ease-in-out hover:scale-95 hover:shadow-2xl hover:ring-4 hover:ring-amber-900 hover:ring-offset-8 sm:flex-row">
             <img src="https://i.ibb.co/dktjQKv/Envisage-All-events-poster-Smooth-Plastic-Sign-12-x-18-in-20240401-225012-0000.png" alt ="all_poster"/>
           </div>
           <Title title="What's the wait for !!" />
