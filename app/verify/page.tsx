@@ -122,32 +122,32 @@ function IsVerified({ ticketId }: { ticketId: string }) {
   );
 }
 
-// export default function VerifyTicket() {
-//   const searchParams = useSearchParams();
-//   const ticketId = searchParams.get("ticketId");
+export default function VerifyTicket() {
+  //const searchParams = useSearchParams();
+  //const ticketId = searchParams.get("ticketId");
 
-//   // URL -> `/verify?ticketId=23EVG123`
-//   // `ticketId` -> '23EVG123'
+  // URL -> `/verify?ticketId=23EVG123`
+  // `ticketId` -> '23EVG123'
 
-//   const router = useRouter();
+  // const router = useRouter();
 
-//   useEffect(() => {
-//     if (!ticketId) {
-//       router.push("/");
-//     }
-//   }, [ticketId, router]);
+  // useEffect(() => {
+  //   if (!ticketId) {
+  //     router.push("/");
+  //   }
+  // }, [ticketId, router]);
 
-//   return (
-//     <>
-//       <title>Verify</title>
-//       <meta name="robots" content="noindex" />
-//       <>
-//         {ticketId ? (
-//           <div>
-//             <IsVerified ticketId={ticketId} />
-//           </div>
-//         ) : null}
-//       </>
-//     </>
-//   );
-// }
+  // return (
+  //   <>
+  //     <title>Verify</title>
+  //     <meta name="robots" content="noindex" />
+  //     <>
+  //       {ticketId ? (
+  //         <div>
+  //           <IsVerified ticketId={ticketId} />
+  //         </div>
+  //       ) : null}
+  //     </>
+  //   </>
+  );
+}
