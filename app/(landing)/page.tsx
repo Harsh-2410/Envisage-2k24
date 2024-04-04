@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <title>Home - Envisage 24</title>
-      <main className="">
+      <main className="bg-white">
         <div className="max-h-auto h-auto bg-gradient-to-bl from-red-900 to-black py-28 pt-10 sm:pb-12">
           <Notify />
           <div className="mx-auto max-w-6xl rounded-2xl p-8 text-white sm:rounded-3xl sm:px-28 sm:py-2 sm:pt-8 sm:pb-20">
@@ -35,13 +35,8 @@ export default function Home() {
               </h1>
               <div className="mt-14 flex flex-col justify-center gap-y-8 sm:flex-row sm:gap-x-6">
                 <button
-<<<<<<< HEAD
                   className="block rounded-lg bg-amber-500 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
                   onClick={() => router.push("/signup")}
-=======
-                  className="block rounded-lg bg-blue-600 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
-                  onClick={() => router.push("https://forms.gle/1V1To7RoLXdNCQ5y6")}
->>>>>>> b701b590fe4e60d9c9154d99c69d929777f4cffb
                 >
                   Register Now
                 </button>
@@ -146,13 +141,8 @@ export default function Home() {
             </div>
             <div className="mx-8 mt-14 flex flex-col justify-center sm:flex-row">
               <button
-<<<<<<< HEAD
                 className="block rounded-lg bg-amber-500 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
                 onClick={() => router.push("/signup")}
-=======
-                className="block rounded-lg bg-blue-600 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
-                onClick={() => router.push("https://forms.gle/1V1To7RoLXdNCQ5y6")}
->>>>>>> b701b590fe4e60d9c9154d99c69d929777f4cffb
               >
                 Register Now
               </button>
@@ -178,13 +168,8 @@ export default function Home() {
                 </h1>
                 <div className="mt-14 flex flex-col justify-center sm:flex-row">
                   <button
-<<<<<<< HEAD
                     className="block rounded-lg bg-amber-500 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
                     onClick={() => router.push("/signup")}
-=======
-                    className="block rounded-lg bg-blue-600 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
-                    onClick={() => router.push("https://forms.gle/1V1To7RoLXdNCQ5y6")}
->>>>>>> b701b590fe4e60d9c9154d99c69d929777f4cffb
                   >
                     Register Now
                   </button>
