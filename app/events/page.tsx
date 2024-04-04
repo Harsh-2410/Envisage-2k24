@@ -7,7 +7,6 @@ import events from "@/data/events.json";
 import { User } from "firebase/auth";
 import HomeLayout from "../(landing)/layout";
 import UserLayout from "../(user)/layout";
-import "./style.css";
 export default function AboutPage() {
   const { user } = useAuthContext() as { user: User | null };
 
