@@ -70,7 +70,7 @@ export default function GalleryPage() {
             // Envisage Photos
           }
           <div className="mb-10 mt-20">
-            <h2 className="text-center text-4xl font-bold tracking-tight sm:text-7xl">
+            <h2 className="text-center text-4xl text-white font-bold tracking-tight sm:text-7xl">
               Envisage
             </h2>
           </div>

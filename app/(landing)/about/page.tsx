@@ -181,7 +181,9 @@ export default function AboutPage() {
           <div className="mt-14 mx-auto mb-10 flex justify-center items-center gap-y-4 rounded-3xl bg-amber-600 p-10 text-white transition-all duration-200 ease-in-out hover:scale-95 hover:shadow-2xl hover:ring-4 hover:ring-amber-900 hover:ring-offset-8 sm:flex-row">
             <img src="https://i.ibb.co/dktjQKv/Envisage-All-events-poster-Smooth-Plastic-Sign-12-x-18-in-20240401-225012-0000.png" alt ="all_poster"/>
           </div>
-          <Title title="What's the wait for !!" />
+          <h1 className="har flex flex-col justify-center text-white text-center text-5xl font-[800] tracking-tighter sm:flex-row sm:gap-x-3 sm:text-7xl"> 
+            What's the wait for !!
+          </h1>
         </section>
       </div>
     </>

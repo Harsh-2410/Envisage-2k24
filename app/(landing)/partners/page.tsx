@@ -17,10 +17,10 @@ export default function PartnersPage() {
               </div>
             </div>
             <div className="mt-6 flex-grow text-center sm:mt-0 sm:text-left">
-              <h2 className="mb-6 text-4xl text-amber-200 font-bold tracking-tight sm:text-5xl">
+              <h2 className="mb-6 text-4xl text-slate-100 font-bold tracking-tight sm:text-5xl">
                 What is Envisage?
               </h2>
-              <p className="mx-auto mt-6 text-lg leading-8 text-white sm:text-left sm:text-xl">
+              <p className="mx-auto mt-6 text-lg leading-8 text-slate-100 font-semibold sm:text-left sm:text-xl">
                 Envisage is the official E-Summit of Techno Main Salt Lake. It is born out
                 of the dreams and aspirations of the youth who have the zest and the zeal
                 to take their future into their own hands. Supporting the growing startup
@@ -30,7 +30,7 @@ export default function PartnersPage() {
             </div>
           </div>
           <div>
-            <h2 className="mb-6 pt-12 text-center text-2xl font-bold tracking-tight sm:text-3xl">
+            <h2 className="mb-6 pt-12 text-center text-2xl text-white font-bold tracking-tight sm:text-3xl">
               Our List of Events
             </h2>
             <div className="grid grid-cols-3 gap-4">

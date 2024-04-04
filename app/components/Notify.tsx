@@ -14,8 +14,8 @@ export default function Notify() {
           Partner Registration Open Now !
         </p>
         <a
-          href="/partners"
-          className="mx-auto flex-none rounded-full bg-amber-400 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
+          href="https://forms.gle/1V1To7RoLXdNCQ5y6"
+          className="mx-auto flex-none rounded-full bg-amber-500 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-amber-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
         >
           Register Now
           <span aria-hidden="true">&rarr;</span>

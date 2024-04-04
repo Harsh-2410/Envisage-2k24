@@ -21,7 +21,7 @@ export default function ContactPage() {
               <form action="https://formsubmit.co/subha9.5roy350@gmail.com" method="POST">
                 <div className="flex flex-col gap-x-5 sm:flex-row">
                   <div className="mb-2.5 flex flex-col sm:w-6/12">
-                    <span className="mb-1.5 mt-2.5 font-medium text-amber-200">
+                    <span className="mb-1.5 mt-2.5 text-amber-400 font-bold">
                       First Name
                     </span>
                     <input
@@ -32,7 +32,7 @@ export default function ContactPage() {
                     />
                   </div>
                   <div className="mb-2.5 flex flex-col sm:w-6/12">
-                    <span className="mb-1.5 mt-2.5 font-medium text-amber-200">
+                    <span className="mb-1.5 mt-2.5 text-amber-400 font-bold">
                       Last Name
                     </span>
                     <input
@@ -46,7 +46,7 @@ export default function ContactPage() {
 
                 <div className="flex flex-col gap-x-5 sm:flex-row">
                   <div className="mb-2.5 flex flex-col sm:w-6/12">
-                    <span className="mb-1.5 mt-2.5 font-medium text-amber-200">Email</span>
+                    <span className="mb-1.5 mt-2.5 text-amber-400 font-bold ">Email</span>
                     <input
                       className="[border:1px solid #333] rounded-md p-2.5 text-lg outline:none focus:border-transparent focus:ring-amber-500"
                       type="text"
@@ -55,7 +55,7 @@ export default function ContactPage() {
                     />
                   </div>
                   <div className="mb-2.5 flex flex-col sm:w-6/12">
-                    <span className="mb-1.5 mt-2.5 font-medium text-amber-200 ">
+                    <span className="mb-1.5 mt-2.5 text-amber-400 font-bold ">
                       Mobile
                     </span>
                     <input
@@ -68,7 +68,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex w-full flex-col">
-                  <span className="mb-1.5 mt-2.5 font-medium text-amber-200">Message</span>
+                  <span className="mb-1.5 mt-2.5 text-amber-400 font-bold">Message</span>
                   <textarea
                     className="w-full[border:1px solid #333] mb-2 resize-none rounded-md p-2 text-lg outline:none focus:border-transparent focus:ring-amber-500 [min-height:220px]"
                     placeholder="Write your message here..."
@@ -92,7 +92,7 @@ export default function ContactPage() {
                 <h3 className="pb-4 text-2xl text-white">Contact Info</h3>
                 <div className="flex flex-col gap-y-2.5 pb-0">
                   <div className="flex items-center">
-                    <span className="mr-4 flex h-10 items-center justify-center rounded-full bg-amber-200 text-2xl text-white [min-width:40px]">
+                    <span className="mr-4 flex h-10 items-center justify-center rounded-full bg-white text-2xl text-amber-400 [min-width:40px]">
                       <MapPinIcon className="h-6 w-6" />
                     </span>
                     <p className="text-lg text-white">
@@ -102,7 +102,7 @@ export default function ContactPage() {
                     </p>
                   </div>
                   <div className="flex items-center">
-                    <span className="mr-4 flex h-10 items-center justify-center rounded-full bg-amber-200 text-2xl text-white [min-width:40px]">
+                    <span className="mr-4 flex h-10 items-center justify-center rounded-full bg-white text-2xl text-amber-400 [min-width:40px]">
                       <EnvelopeIcon className="h-5 w-5" />
                     </span>
                     <a
@@ -113,7 +113,7 @@ export default function ContactPage() {
                     </a>
                   </div>
                   <div className="flex items-center">
-                    <span className="mr-4 flex h-10 items-center justify-center rounded-full bg-amber-200 text-2xl text-white [min-width:40px]">
+                    <span className="mr-4 flex h-10 items-center justify-center rounded-full bg-white text-2xl text-amber-400 [min-width:40px]">
                       <PhoneIcon className="h-5 w-5" />
                     </span>
                     <a
@@ -126,7 +126,7 @@ export default function ContactPage() {
                   <ul className="mt-4 flex list-none gap-2 pb-2">
                     <li>
                       <a
-                        className="text-3xl text-neutral-300 transition-all duration-200 ease-in-out hover:text-white"
+                        className="text-3xl text-neutral-400 transition-all duration-200 ease-in-out hover:text-white"
                         href="https://www.facebook.com/iictmsl/"
                         target="_blank"
                       >
@@ -135,7 +135,7 @@ export default function ContactPage() {
                     </li>
                     <li>
                       <a
-                        className="text-3xl text-neutral-300 transition-all duration-200 ease-in-out hover:text-white"
+                        className="text-3xl text-neutral-400 transition-all duration-200 ease-in-out hover:text-white"
                         href="https://twitter.com/iictmsl"
                         target="_blank"
                       >
@@ -144,7 +144,7 @@ export default function ContactPage() {
                     </li>
                     <li>
                       <a
-                        className="text-3xl text-neutral-300 transition-all duration-200 ease-in-out hover:text-white"
+                        className="text-3xl text-neutral-400 transition-all duration-200 ease-in-out hover:text-white"
                         href="https://www.linkedin.com/company/iictmsl/mycompany/"
                         target="_blank"
                       >
@@ -153,7 +153,7 @@ export default function ContactPage() {
                     </li>
                     <li>
                       <a
-                        className="text-3xl text-neutral-300 transition-all duration-200 ease-in-out hover:text-white"
+                        className="text-3xl text-neutral-400 transition-all duration-200 ease-in-out hover:text-white"
                         href="https://www.instagram.com/iictmsl/"
                         target="_blank"
                       >

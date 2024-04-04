@@ -36,7 +36,7 @@ export default function Home() {
               <div className="mt-14 flex flex-col justify-center gap-y-8 sm:flex-row sm:gap-x-6">
                 <button
                   className="block rounded-lg bg-amber-500 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
-                  onClick={() => router.push("/signup")}
+                  onClick={() => router.push("https://forms.gle/1V1To7RoLXdNCQ5y6")}
                 >
                   Register Now
                 </button>
@@ -142,7 +142,7 @@ export default function Home() {
             <div className="mx-8 mt-14 flex flex-col justify-center sm:flex-row">
               <button
                 className="block rounded-lg bg-amber-500 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
-                onClick={() => router.push("/signup")}
+                onClick={() => router.push("https://forms.gle/1V1To7RoLXdNCQ5y6")}
               >
                 Register Now
               </button>
@@ -154,7 +154,7 @@ export default function Home() {
             className="mx-6 h-auto rounded-3xl bg-gradient-to-bl from-red-900 to-black py-14 sm:mx-20"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5')",
+                "url('https://i.ibb.co/QN9FZVR/bg.jpg')",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -169,7 +169,7 @@ export default function Home() {
                 <div className="mt-14 flex flex-col justify-center sm:flex-row">
                   <button
                     className="block rounded-lg bg-amber-500 px-6 py-4 text-center text-base font-semibold uppercase tracking-tight text-zinc-100 active:scale-95 sm:px-12 sm:text-xl"
-                    onClick={() => router.push("/signup")}
+                    onClick={() => router.push("https://forms.gle/1V1To7RoLXdNCQ5y6")}
                   >
                     Register Now
                   </button>

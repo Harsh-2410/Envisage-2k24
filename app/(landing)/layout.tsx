@@ -7,7 +7,7 @@ import "../(landing)/team/style.css";
 export default function HomeLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <div className="all overflow-x-hidden">
+      <div className="bg-white">
         <NavBar />
         <div className="relative isolate pt-20">{children}</div>
         <Footer />
