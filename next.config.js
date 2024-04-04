@@ -4,13 +4,8 @@ const nextConfig = {
     domains: ["www.iictmsl.com",'photos.google.com','i.ibb.co'],
   },
   experimental: {
-    missingSuspenseWithCSRBailout: false,
+    appDir: true,
   },
-  // experimental: {
-  //   appDir: true,
-  // },
 };
-
-
 
 module.exports = nextConfig;
