@@ -3,9 +3,18 @@ const nextConfig = {
   images: {
     domains: ["www.iictmsl.com",'photos.google.com','i.ibb.co'],
   },
+  experimental: {
+    missingSuspenseWithCSRBailout: false,
+  },
   // experimental: {
   //   appDir: true,
   // },
 };
+
+module.exports = {
+  experimental: {
+    missingSuspenseWithCSRBailout: false,
+  },
+}
 
 module.exports = nextConfig;
