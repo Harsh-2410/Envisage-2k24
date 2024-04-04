@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <title>Home - Envisage 24</title>
-      <main className="bg-white">
+      <main className="">
         <div className="max-h-auto h-auto bg-gradient-to-bl from-red-900 to-black py-28 pt-10 sm:pb-12">
           <Notify />
           <div className="mx-auto max-w-6xl rounded-2xl p-8 text-white sm:rounded-3xl sm:px-28 sm:py-2 sm:pt-8 sm:pb-20">
