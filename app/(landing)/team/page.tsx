@@ -106,14 +106,14 @@ const adminList = [
     id: 1,
     name: "Shristi Rai",
     role: "Convenor",
-    image: "https://www.iictmsl.com/_next/image?url=%2Fimages%2Fteam%2Fadmin%2Fshristi.webp&w=384&q=75",
+    image: "https://i.ibb.co/SR9bKm8/Whats-App-Image-2024-04-05-at-00-22-58-76ea368a.jpg",
     linkedIn: "shristi-rai-03a264209",
   },
   {
     id: 2,
     name: "Rohan Jha",
     role: "Co-Convenor",
-    image: "https://www.iictmsl.com/_next/image?url=%2Fimages%2Fteam%2Fadmin%2Frohan.webp&w=384&q=75",
+    image: "https://i.ibb.co/gwfc0KF/Rohan-Jha-photo.jpg",
     linkedIn: "rohan-jha-476296213",
   },
 ];
@@ -144,7 +144,7 @@ const teamlist = [
     id: 4,
     name: "Ashhar A. Ahmed",
     role: "Head of Technical wing.",
-    image: "https://www.iictmsl.com/_next/image?url=%2Fimages%2Fteam%2Fheads-coheads%2Fashhar.webp&w=256&q=75",
+    image: "https://i.ibb.co/pnhpZX7/pic-ashhar.jpg",
     linkedIn: "ashhar-ali-ahmed-971aaa193",
   },
   {
@@ -256,7 +256,7 @@ const teamlist = [
   {
     id: 28,
     name: "Arunabha Sengupta",
-    role: "Co-Head of PR & Outreach wing",
+    role: "Co-Head of Sponsership wing",
     image: "https://i.ibb.co/Th8wmCV/Arunabha.jpg",
     linkedIn: ""
 
