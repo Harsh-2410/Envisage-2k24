@@ -214,7 +214,7 @@ const teamlist = [
     id: 14,
     name: "Aaquib Ahmed",
     role: "Co-Head of Management & Resource wing.",
-    image: "https://www.iictmsl.com/_next/image?url=%2Fimages%2Fteam%2Fheads-coheads%2Faaquib.webp&w=256&q=75",
+    image: "https://i.ibb.co/sCP5Spg/aaquib.jpg",
     linkedIn: "aaquib-ahmad-81597b226",
   },
   {
@@ -252,14 +252,6 @@ const teamlist = [
     role: "Co-Head of PR & Outreach wing.",
     image: "https://www.iictmsl.com/_next/image?url=%2Fimages%2Fteam%2Fheads-coheads%2Faadarsh.webp&w=256&q=75",
     linkedIn: "aadarsh-sharma-65548a244",
-  },
-  {
-    id: 28,
-    name: "Arunabha Sengupta",
-    role: "Co-Head of Sponsership wing",
-    image: "https://i.ibb.co/Th8wmCV/Arunabha.jpg",
-    linkedIn: ""
-
   },
   {
     id: 19,
@@ -302,6 +294,14 @@ const teamlist = [
     role: "Head of Sponsorship wing.",
     image: "https://www.iictmsl.com/_next/image?url=%2Fimages%2Fteam%2Fheads-coheads%2Fsoumyadeep-sp.webp&w=256&q=75",
     linkedIn: "soumyadeep-banerjee-722447237",
+  },
+  {
+    id: 28,
+    name: "Arunabha Sengupta",
+    role: "Co-Head of Sponsership wing",
+    image: "https://i.ibb.co/Th8wmCV/Arunabha.jpg",
+    linkedIn: ""
+
   },
   {
     id: 25,
