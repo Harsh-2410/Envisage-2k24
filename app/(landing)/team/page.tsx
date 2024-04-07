@@ -229,7 +229,7 @@ const teamlist = [
     name: "Mitali Lal",
     role: "Co-Head of Management & Resource wing.",
     image: "https://i.ibb.co/gjZx4fX/Mitali-Lal.jpg",
-    linkedIn: ""
+    linkedIn: "mitali-lal-7b4193243"
 
   },
   {
@@ -300,7 +300,7 @@ const teamlist = [
     name: "Arunabha Sengupta",
     role: "Co-Head of Sponsorship wing",
     image: "https://i.ibb.co/Th8wmCV/Arunabha.jpg",
-    linkedIn: ""
+    linkedIn: "arunabha-sengupta-5a4048237"
 
   },
   {
