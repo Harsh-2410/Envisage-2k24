@@ -298,7 +298,7 @@ const teamlist = [
   {
     id: 28,
     name: "Arunabha Sengupta",
-    role: "Co-Head of Sponsership wing",
+    role: "Co-Head of Sponsorship wing",
     image: "https://i.ibb.co/Th8wmCV/Arunabha.jpg",
     linkedIn: ""
 
