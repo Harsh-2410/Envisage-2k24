@@ -1,6 +1,6 @@
 # Envisage 2k24 Website
 
-![image](.github/cover.jpg)
+![image](https://i.ibb.co/th5jS0S/Envisage.jpg)
 
 > The repo for the official website of Envisage 2k24.
 
