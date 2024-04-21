@@ -1,8 +1,8 @@
-# Envisage 2k23 Website
+# Envisage 2k24 Website
 
 ![image](.github/cover.jpg)
 
-> The repo for the official website of Envisage 2k23.
+> The repo for the official website of Envisage 2k24.
 
 ## Features
 
