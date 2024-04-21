@@ -41,14 +41,13 @@
 ## Authors
 
 
-- Aditya Seth - [@AdityaSeth777](https://www.github.com/AdityaSeth777)
-- Arghya Ghosh - [@uiuxarghya](https://www.github.com/uiuxarghya)
+
 - Subhadeep Roy - [@subhadeep3902](https://www.github.com/subhadeep3902)
-- Srijan Bhattacharya - [@SrijanBhattacharyya](https://www.github.com/SrijanBhattacharyya)
-- Abhishikta Ray - [@Abhishikta03](https://www.github.com/Abhishikta03)
-- Komal Agarwal - [@komal-agarwal5](https://www.github.com/komal-agarwal5)
-- Parna Ray Chowdhury - [@ParnaRoyChowdhury777](https://www.github.com/ParnaRoyChowdhury777)
-- Shrutika Jha - [@shrutika2603](https://www.github.com/shrutika2603)
+- Utsav Tiwari -[@utsav306](https://github.com/utsav306)
+- Harshankit Tiwary -[@Harsh-2410](https://github.com/Harsh-2410)
+-Atul Kumar Singh - [@RudraSingh](https://github.com/RudrasSingh)
+
+
   
   
 
